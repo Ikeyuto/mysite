@@ -1,0 +1,88 @@
+@charset "UTF-8";
+
+html{
+    font-size: 100%;
+}
+
+body{
+    font-family:'Helvetica Neue', 'Arial', 'Hiragino Sans', 'Meiryo', 'sans-serif';
+    color: #2B2A27;
+}
+
+ul{
+    list-style: none;
+}
+
+img{
+    max-width: 100%;
+}
+
+.mainvisual img{
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    object-position: center;
+    margin-bottom: 80px;
+}
+
+.title{
+    height: 300px;
+}
+.site-title{
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.content{
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.Photos{
+    display: flex;
+    margin-bottom: 60px;
+}
+
+.Photos li{
+    width: calc(100%/3);
+}
+.Photos li img{
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+    vertical-align: bottom;
+}
+
+.button{
+    text-align: center;
+    padding: 0 20px;
+    margin-bottom: 80px;
+}
+.button .btn{
+    font-size: 0.875rem;
+    padding: 18px 60px;
+    text-decoration: none;
+    display: inline-block;
+    border: solid 1px #2b2a27;
+}
+
+#footer .footer-list{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+#footer .footer-list li{
+    margin-right: 10px;
+}
+
+a{
+    color: #2B2A27;
+}
+
+#footer{
+    text-align: center;
+    font-size: 0.725rem;
+    margin-bottom: 20px;
+}
